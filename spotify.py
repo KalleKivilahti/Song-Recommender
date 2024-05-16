@@ -27,7 +27,6 @@ frame.pack(pady=40)
 
 def get_recommendations(event=None):
 
-
     query = entry1.get()
     
     for widget in frame.winfo_children()[3:]:
